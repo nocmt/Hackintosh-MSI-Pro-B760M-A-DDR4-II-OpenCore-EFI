@@ -73,7 +73,7 @@
 
 | 系统    | 软件                                                                                   | 说明                                              |
 | ------- | -------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| macOS   | [MaciASL](https://gitlab.com/CalcProgrammer1/OpenRGB)                                  | 编辑ACPI文件的软件 |
+| macOS   | [MaciASL](https://github.com/acidanthera/MaciASL)                                  | 编辑ACPI文件的软件 |
 | macOS | [Hackintool](https://github.com/benbaker76/Hackintool) | 黑苹果配置工具 |
 | macOS、Windows | [RapidEFI-Tool](https://github.com/JeoJay127/RapidEFI-Tool) | 基于OpenCore的优秀一键式EFI配置工具 |
 | Windows | [DiskGenius](https://www.diskgenius.cn/) | 磁盘编辑工具，也可修改UEFI启动项（BIOS也可以设置）                                  |
