@@ -1,6 +1,6 @@
 # Hackintosh MSI Pro B760M-A DDR4 II OpenCore EFI
 
-参考xxnuo的 [Hackintosh-MSI-Pro-B760M-A-WIFI-DDR4-II-OpenCore-EFI](https://github.com/xxnuo/Hackintosh-MSI-Pro-B760M-A-WIFI-DDR4-II-OpenCore-EFI) 并结合自己实际情况修改，感谢作者无私奉献。
+根据 xxnuo 的 [Hackintosh-MSI-Pro-B760M-A-WIFI-DDR4-II-OpenCore-EFI](https://github.com/xxnuo/Hackintosh-MSI-Pro-B760M-A-WIFI-DDR4-II-OpenCore-EFI) 配置文件并结合自己实际情况修改，感谢作者无私奉献。
 
 ![Motherboard](Motherboard.png)
 
@@ -12,8 +12,8 @@
 | 处理器       | Intel i5-12600KF                                                            |
 | 显卡         | 华擎（ASRock）AMD RADEON RX 6800XT 幻影电竞 OC 7nm AMD RDNA 2架构 16GB GDDR6 |
 | 内存         | 玖合星舞 海力士CJR颗粒 64GB DDR4 3600 Mhz (16GBx4 XMP 3600Mhz)                 |
-| 硬盘位1：MacOS / Windows   | 金士顿 Kingston KC3000 2TB                                               |
-| 硬盘位2：Windows游戏使用 | 三星 PM9A1 2TB                                      |
+| 硬盘位1：macOS / Windows   | 金士顿 Kingston KC3000 2TB                                               |
+| 硬盘位2：仅Windows使用 | 三星 PM9A1 2TB                                      |
 | 声卡         | 板载瑞昱 Realtek ALC897                                                     |
 | 有线网卡     | 板载瑞昱 Realtek RTL8125BG 2.5GbE LAN                                       |
 | 无线网卡     | 无 |
@@ -27,7 +27,7 @@
 
 | 组件     | 版本                                                | 备注                                                                                     |
 | -------- | --------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| BIOS     | 7D99v1B (2024-04-23)                                | [主板官方产品规格介绍](https://www.msi.cn/Motherboard/PRO-B760M-A-DDR4-II/Overview) |
+| BIOS     | 7D99v1B (2024-08-01)                                | [主板官方产品规格介绍](https://www.msi.cn/Motherboard/PRO-B760M-A-DDR4-II/Overview) |
 | OpenCore | [1.0.2](https://github.com/acidanthera/OpenCorePkg) | 2024-10-16                                                                               |
 | OpenCore Mod| [1.0.3](https://github.com/wjz304/OpenCore_NO_ACPI_Build) | 2024-10-23，由于双系统单盘原因，原版OC引导会导致Windows启动蓝屏报ACPI_BIOS_ERROR错误，改为Mod版正常                                                                               |
 | macOS    | Sequoia 15.0 (24A335)                                 | [macOS All In One多系统安装镜像在线版包括:10.13-15.0,以及 FirPE1.9.1+Windows11](https://mp.weixin.qq.com/s/lUInPXMrJaL4T81C8GhSEg)                                |
